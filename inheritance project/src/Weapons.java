@@ -1,7 +1,6 @@
 
 public abstract class Weapons
 	{
-protected String weight;
 protected boolean dirty;
 protected String cleaningTools;
 protected int range;
@@ -11,7 +10,7 @@ public void cleaning() {
 		System.out.println("The weapon was already clean");
 	}
 	if (dirty==true){
-		System.out.println("You cleaned the weapon using a(n)"+cleaningTools+".");
+		System.out.println("You cleaned the weapon using a(n) "+cleaningTools+".");
 		dirty=false;
 	}
 }
