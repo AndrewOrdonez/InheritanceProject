@@ -11,6 +11,7 @@ for (int i=5;i>0;i--){
 	System.out.println(i);
 	Thread.sleep(1000);
 }
+				//see if you need to ask for questions
 for (int i=0;i<4;i++){
 	for(int j=0;j<3;j++){
 		DirtyWork.question(i, j);
