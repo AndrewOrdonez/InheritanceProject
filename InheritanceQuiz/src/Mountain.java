@@ -1,5 +1,5 @@
 
-public class Mountains
+public class Mountain
 	{
 public int erode(){
 	return 1; 

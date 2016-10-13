@@ -12,7 +12,7 @@ for (int i=5;i>0;i--){
 	Thread.sleep(1000);
 }
 for (int i=0;i<4;i++){
-	for(int j=0;j<4;j++){
+	for(int j=0;j<3;j++){
 		DirtyWork.question(i, j);
 		String str=scan.next();
 		char[] car=new char[10];

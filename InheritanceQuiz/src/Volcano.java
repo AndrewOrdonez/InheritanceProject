@@ -1,5 +1,5 @@
 
-public class Volcanoes extends Mountains
+public class Volcano extends Mountain
 	{
 public int explode(){
 	return 3;
